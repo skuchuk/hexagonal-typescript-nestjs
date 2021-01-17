@@ -44,7 +44,6 @@ describe('CatService', () => {
 
   it('should not throw exception when adding a new cat', () => {
     const newCat = new CatDto('Test Cat', 'Female');
-    const addCat = (): void => service.addCat(newCat);
-    expect(addCat).not.toThrow();
+    expect(() => service.addCat(newCat)).not.toThrow();
   });
 });

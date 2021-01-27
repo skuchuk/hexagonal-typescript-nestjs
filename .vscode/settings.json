@@ -10,8 +10,8 @@
     "**/*.js": {
         "when": "$(basename).ts"
     },
-    ".gitignore": true,
-    ".dockerignore": true,
+    ".gitignore": false,
+    ".dockerignore": false,
     "node_modules": true,
     ".idea": true,
     "coverage": true

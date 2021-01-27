@@ -1,0 +1,7 @@
+{
+    // ALL CONTENT IN THIS FILE CAN BE DELETED THIS IS JUST AN EXAMPLE
+    // example overriding host and dbName values from default.json5
+    host: 'qa.pt-cellebrite.com',
+    port: 1090,
+    dbName: 'evidence-sharing-qa'
+}

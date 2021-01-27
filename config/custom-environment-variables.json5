@@ -1,0 +1,17 @@
+{
+    // example of using environment variables to override configuration variables
+    // we map here a variable name in our config file to environment variable name
+    // if process.env.HOST has a value in it OR
+    // if process.env.PORT has a value in it OR
+    // if process.env.DB_SCHEMA has a value in it
+    // this value will override the configuration value in all other config files (default, production. qa)
+
+    // it is also possible to impose an expected format to the environment variable value and config library
+    // would try to parse it as such
+    host: "HOST",
+    port: "PORT",
+    dbName: {
+        __name: "DB_SCHEMA",
+        __format: "string"
+    }
+}

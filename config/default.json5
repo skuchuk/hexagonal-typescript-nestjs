@@ -5,6 +5,6 @@
     // configuration files with env names such as production.json or qa.json can extend the default
     // configuration with additional variables and/or override the value from default.json
     host: 'pt-cellebrite.com',
-    port: 1090,
+    port: 3001,
     dbName: 'evidence-sharing-localhost'
 }
